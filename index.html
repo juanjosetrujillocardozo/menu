@@ -9,18 +9,20 @@
 
     <form action="/formulario" method="post">
       <label for="nombre">Nombre</label>
-      <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre"/>
+      <input value="Juan" type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre"/>
       <br>
       <br>
       <label for="apellido">Apellido</label>
-      <input type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido"/>
+      <input value="Perez" type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido"/>
       <br>
       <br>
       <label for="comentario">Comentario</label>
       <br>
-      <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario" name="comentario"></textarea>
+      <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario" name="comentario">este es un valor por defecto</textarea>
       <br>
-      <input type="submit" />
+      <button type="button">Tipo boton</button>
+      <button type="reset">Tipo reset</button>
+      <button type="submit">Tipo submit</button>
     </form>
 
     <h1>Hola, Mi nombre es</h1>
