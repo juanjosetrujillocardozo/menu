@@ -4,8 +4,60 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>Menú Principal</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+    </style>
   </head>
   <body>
+
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>
+    
+    <tr>
+      <td>Hola beats</td>
+      <td>Gratis</td>
+    </tr>
+    <tr>
+      <td>Chanchito Feliz</td>
+      <td>19.90$</td>
+    </tr>
+    <tr>
+      <td>Chanchito Feliz muy feliz</td>
+      <td>29.90$</td>
+    </tr>
+  </table>
+
+    <!--ul es lista no ordenada-->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <!--ol es lista ordenada-->
+    <ol>
+      <li value="50">Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+          <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+          <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+          <li style="list-style-type: lower-alpha;">sub elemento 4</li>
+
+        </ol>
+      </li>
+    </ol>
+
+
 
     <form action="/formulario" method="post">
       <label for="nombre">Nombre</label>
