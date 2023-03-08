@@ -1,111 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <title>Menú Principal</title>
-    <style>
-        table, th, td {
-          border: 1px solid black;
-        }
-    </style>
-  </head>
-  <body>
 
-    <table>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Menú Principal</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table style="width: 500px;">
+    <thead>
       <tr>
         <th>Producto</th>
         <th>Precio</th>
       </tr>
-    
-    <tr>
-      <td>Hola beats</td>
-      <td>Gratis</td>
-    </tr>
-    <tr>
-      <td>Chanchito Feliz</td>
-      <td>19.90$</td>
-    </tr>
-    <tr>
-      <td>Chanchito Feliz muy feliz</td>
-      <td>29.90$</td>
-    </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Hola beats</td>
+        <td>Gratis</td>
+      </tr>
+      <tr>
+        <td>Chanchito Feliz</td>
+        <td>19.90$</td>
+      </tr>
+      <tr>
+        <td>Chanchito Feliz muy feliz</td>
+        <td>29.90$</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td></td>
+      <td>Total: 49.80$</td>
+    </tfoot>
   </table>
 
-    <!--ul es lista no ordenada-->
-    <ul>
-      <li>Elemento 1</li>
-      <li>Elemento 2</li>
-      <li>Elemento 3</li>
-      <li>Elemento 4</li>
-    </ul>
+  <!--ul es lista no ordenada-->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul>
 
-    <!--ol es lista ordenada-->
-    <ol>
-      <li value="50">Elemento 1</li>
-      <li>Elemento 2</li>
-      <li>Elemento 3</li>
-      <li>Elemento 4</li>
-      <li>
-        <ol>
-          <li style="list-style-type: lower-alpha;">sub elemento 1</li>
-          <li style="list-style-type: lower-alpha;">sub elemento 2</li>
-          <li style="list-style-type: lower-alpha;">sub elemento 3</li>
-          <li style="list-style-type: lower-alpha;">sub elemento 4</li>
+  <!--ol es lista ordenada-->
+  <ol>
+    <li value="50">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>
+      <ol>
+        <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+        <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+        <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+        <li style="list-style-type: lower-alpha;">sub elemento 4</li>
 
-        </ol>
-      </li>
-    </ol>
+      </ol>
+    </li>
+  </ol>
 
 
 
-    <form action="/formulario" method="post">
-      <label for="nombre">Nombre</label>
-      <input value="Juan" type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre"/>
-      <br>
-      <br>
-      <label for="apellido">Apellido</label>
-      <input value="Perez" type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido"/>
-      <br>
-      <br>
-      <label for="comentario">Comentario</label>
-      <br>
-      <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario" name="comentario">este es un valor por defecto</textarea>
-      <br>
-      <button type="button">Tipo boton</button>
-      <button type="reset">Tipo reset</button>
-      <button type="submit">Tipo submit</button>
-    </form>
+  <form action="/formulario" method="post">
+    <label for="nombre">Nombre</label>
+    <input value="Juan" type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre" />
+    <br>
+    <br>
+    <label for="apellido">Apellido</label>
+    <input value="Perez" type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido" />
+    <br>
+    <br>
+    <label for="comentario">Comentario</label>
+    <br>
+    <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario"
+      name="comentario">este es un valor por defecto</textarea>
+    <br>
+    <button type="button">Tipo boton</button>
+    <button type="reset">Tipo reset</button>
+    <button type="submit">Tipo submit</button>
+  </form>
 
-    <h1>Hola, Mi nombre es</h1>
-    <h2>Juan Jose Trujillo Cardozo</h2>
-    <h3>Juan Jose Trujillo Cardozo</h3>
-    <h4>Juan Jose Trujillo Cardozo</h4>
-    <h5>Juan Jose Trujillo Cardozo</h5>
-    <h6>Juan Jose Trujillo Cardozo</h6>
-    <p>Chanchito feliz esta muy feliz.</p>
-    <p>Chanchito triste esta muy triste.</p>
-    <h2>Chanchito felipe</h2>
-    <h2>Texto un poco mas</h2>
-    <hr>
-    <!-- Hola esto es un comentario y no aparece en el explorador
+  <h1>Hola, Mi nombre es</h1>
+  <h2>Juan Jose Trujillo Cardozo</h2>
+  <h3>Juan Jose Trujillo Cardozo</h3>
+  <h4>Juan Jose Trujillo Cardozo</h4>
+  <h5>Juan Jose Trujillo Cardozo</h5>
+  <h6>Juan Jose Trujillo Cardozo</h6>
+  <p>Chanchito feliz esta muy feliz.</p>
+  <p>Chanchito triste esta muy triste.</p>
+  <h2>Chanchito felipe</h2>
+  <h2>Texto un poco mas</h2>
+  <hr>
+  <!-- Hola esto es un comentario y no aparece en el explorador
     jiji jaja esto es lo mas chevere del mundo xd-->
-    <img src="images/imgPerfilJuanJose.jpg" height="400"/>
-    <p>Soy estudiante de <span style="color:blue">Ingenieria de Sistemas</span>
-      y estoy haciendo pruebas 
-      <br>
-      <br>para realizar mi portafolio web<br>
-    </p>
-    
-    <a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">Contactame 👈</a>
-    <a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">Visita mi tienda 👈</a>
+  <img src="images/imgPerfilJuanJose.jpg" height="400" />
+  <p>Soy estudiante de <span style="color:blue">Ingenieria de Sistemas</span>
+    y estoy haciendo pruebas
+    <br>
+    <br>para realizar mi portafolio web<br>
+  </p>
 
-  </body>
+  <a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">Contactame 👈</a>
+  <a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">Visita mi tienda 👈</a>
+
+</body>
+
 </html>
-
-
-
-
-
-
-
