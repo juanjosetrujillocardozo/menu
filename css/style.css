@@ -91,15 +91,15 @@ Esto es un comentario
 }
 
 a:link {
-    color: blueviolet
+    color: greenyellow
 }
 
 a:visited {
-    color: gray;
+    color: violet;
 }
 
 a:hover {
-    color: yellow;
+    color: orangered;
 }
 
 a:active {
