@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Menú Principal</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body id="titulo">
+    <hr>
+    <h1>La siguiente seccion son pruebas para manejar el lenguaje HTML
+        para construir mi sitio web junto con algo de css
+    </h1>
+    <hr>
+    <table style="width: 200px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arroz</td>
+                <td>$2.300</td>
+            </tr>
+            <tr>
+                <td>Yuca</td>
+                <td>$10.900</td>
+            </tr>
+            <tr>
+                <td>Platano</td>
+                <td>5.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $18.200</td>
+        </tfoot>
+    </table>
+
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 4</li>
+
+            </ol>
+        </li>
+    </ol>
+
+
+    <p>Formulario prueba👇</p>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Juan" type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre" />
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Perez" type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido" />
+        <br>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese un comentario"
+            name="comentario">este es un valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+
+    <h3>Este es un texto tipo h3</h3>
+    <h4>Este es un texto tipo h4</h4>
+    <h5>Este es un texto tipo h5</h5>
+    <h6>Este es un texto tipo h6 y h7 no existe, se supone que debe de haber una rama 1 aqui...</h6>
+
+    <section class="center">
+        <p>Hola mundo</p>
+    </section>
+    <div class="inline-block">Inline Block</div>
+    <div class="inline-block">Inline Block 2</div>
+    <div class="container">
+        <article class="column right">1</article>
+        <article class="column right">2</article>
+        <article class="column right">3</article>
+    </div>
+    <div class="container">
+        <img src="images/imgPerfilJuanJose.jpg" class="left" />
+        <p>Texto tipo parrafo que se ubica a la derecha al lado de la imagen</p>
+    </div>
+    <div class="inline">Esto es un inline</div>
+    <div class="inline">Esto es un inline x2</div>
+    <span>Esto es un span 1</span>
+    <span>Esto es un span 2</span>
+    <article id="position">Holiiii, soy un texto que te va a acompañar a lo largo de la pagina despues de que me pases
+        jejeje... </article>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Trujillo</td>
+        </tr>
+        <tr>
+            <td>Hola</td>
+            <td>Mundo</td>
+        </tr>
+        <tr>
+            <td>Chao</td>
+            <td>Mundo</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+    </ul>
+    <a href="https://www.google.com.co">Link a Google</a>
+    <p class="text">Esto es un texto con sombra de color azul borroso del mismo texto que escribo...</p>
+    <div class="margen">
+        Texto en margen con scroll habilitado para leer completamente el contenido dentro del mismo
+    </div>
+    <article id="fondo">
+        Vas llegando al final de la pagina web...
+    </article>
+    <div>
+        <p>Esto seria todo por el momento...</p>
+        <h2>Espero que haya sido de tu agrado 😀</h2>
+        <h3>Si deseas ver el resto de la pagina, abajo te dejo los links para que navegues y me cuentes tu experiencia
+            por
+            medio de mis redes sociales 👇</h3>
+
+    </div>
+
+    <footer>
+        <a href="#titulo">▪ Ir arriba </a>
+        <a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">▪ Contacto </a>
+        <a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">▪ Tienda TRUJO TECHNOLOGIES </a>
+        <a href="https://juanjosetrujillocardozo.github.io/menu/blog.html">▪ Blog </a>
+        <a href="mailto:juanjosetrujillocardozo@gmail.com">▪ Correo electronico </a>
+        <hr>
+        <p>Copyright© 2023</p>
+    </footer>
+
+</body>
+
+</html>
