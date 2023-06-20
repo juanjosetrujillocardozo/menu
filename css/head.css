@@ -26,6 +26,11 @@
     text-align: center;
 }
 
+.head__enlace :hover {
+    color: gold;
+    text-decoration: underline;
+}
+
 .head__enlace {
     font-size: 1.1rem;
 
