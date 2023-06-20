@@ -1,259 +1,185 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">!-->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/planes.css">
-    <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">-->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Portafolio | Juan Jose Trujillo Cardozo</title>
-
-    <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="css/llamada.css" rel="stylesheet">
+    <link href="css/bases.css" rel="stylesheet">
+    <link href="css/destacados.css" rel="stylesheet">
+    <link href="css/diferenciales.css" rel="stylesheet">
+    <link href="css/sobre-nosotros.css" rel="stylesheet">
+    <link href="css/planes.css" rel="stylesheet">
+    <link href="css/contacto.css" rel="stylesheet">
+    <link href="css/institucional.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
 </head>
 
-<body id="titulo">
-    <header>
-        <div class="caja">
-            <h1><img src="./images/imgPerfilJuanJose.jpg"></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="https://juanjosetrujillocardozo.github.io/menu/pruebas-html.html">Pruebas HTML</a></li>
-                    <li><a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">Tienda TRUJO
-                            TECHNOLOGIES</a></li>
-                    <li><a href="https://juanjosetrujillocardozo.github.io/menu/blog.html">Blog</a></li>
-                    <li><a href="https://juanjosetrujillocardozo.github.io/menu/portafolio.html">Portafolio</a></li>
-                    <li><a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">Contacto</a></li>
-                    <li><a href="mailto:juanjosetrujillocardozo@gmail.com">Correo Electronico</a></li>
+<body>
+    <header class="head container">
 
+        <img class="head__logo" src="images/imgTrujoTech.png" alt="Logo de Apeperia">
+        <nav class="head__navegacion">
+            <ul>
+                <li class="head__enlace"><a href="index.html">Inicio</a></li>
+                <li class="head__enlace"><a
+                        href="https://juanjosetrujillocardozo.github.io/menu/pruebas-html.html">Pruebas
+                        HTML</a></li>
+                <li class="head__enlace"><a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">Tienda
+                        TRUJO
+                        TECHNOLOGIES</a></li>
+                <li class="head__enlace"><a href="https://juanjosetrujillocardozo.github.io/menu/blog.html">Blog</a>
+                </li>
+                <li class="head__enlace"><a
+                        href="https://juanjosetrujillocardozo.github.io/menu/portafolio.html">Portafolio</a></li>
+                <li class="head__enlace"><a
+                        href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">Contacto</a>
+                </li>
+                <li class="head__enlace"><a href="mailto:juanjosetrujillocardozo@gmail.com">Correo Electronico</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="llamada container">
+            <h1 class="llamada__titulo">MI PORTAFOLIO</h1>
+            <p class="llamada__texto">Conoce un poco mas sobre mi, educación, experiencia laboral y proyectos.</p>
+            <a class="llamada__boton boton" href="https://github.com/juanjosetrujillocardozo">PROYECTOS</a>
+        </section>
+        <section class="planes container">
+            <h2 class="planes__titulo">Educación</h2>
+            <ul class="planes__tarjetas">
+                <li class="tarjetas tarjetas--start">
+                    <h3 class="tarjetas__titulo">Universidad Piloto de Colombia</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Grado en Ingeniería de Sistemas</p>
+                        <p class="tarjetas__texto">2019 - 2024</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--ultra">
+                    <h3 class="tarjetas__titulo">Servicio Nacional de Aprendizaje (SENA)</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Tecnicatura en sistemas</p>
+                        <p class="tarjetas__texto">2016 - 2018</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--mega">
+                    <h3 class="tarjetas__titulo">Augusto E. Medina de Comfenalco</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Bachiller Tecnico</p>
+                        <p class="tarjetas__texto">2013 - 2018</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--mega">
+                    <h3 class="tarjetas__titulo">Augusto E. Medina de Comfenalco</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Educación Primaria</p>
+                        <p class="tarjetas__texto">2009 - 2012</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--mega">
+                    <h3 class="tarjetas__titulo">EduGreen Training</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Curso Certificado en Adobe Prototipos e Interfaces UI/UX con XD</p>
+                        <p class="tarjetas__texto">mar. 2023 - abr. 2023</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
+                    </articule>
+                </li>
+            </ul>
+        </section>
+
+        <section class="planes container">
+            <h2 class="planes__titulo">Experiencia</h2>
+            <ul class="planes__tarjetas">
+                <li class="tarjetas tarjetas--start">
+                    <h3 class="tarjetas__titulo">Propietario de la empresa</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">TRUJO TECHNOLOGIES</p>
+                        <p class="tarjetas__texto">Autónomo</p>
+                        <p class="tarjetas__texto">mar. 2023 - actualidad</p>
+                        <p class="tarjetas__texto">Girardot, Cundinamarca, Colombia</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--ultra">
+                    <h3 class="tarjetas__titulo">Cajero</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Pizzería Hoyo 19</p>
+                        <p class="tarjetas__texto">Temporal</p>
+                        <p class="tarjetas__texto">nov. 2022 - feb. 2023</p>
+                        <p class="tarjetas__texto">Melgar, Tolima, Colombia</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--ultra">
+                    <h3 class="tarjetas__titulo">Cajero</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Ramona Pizza Artesanal</p>
+                        <p class="tarjetas__texto">Jornada completa</p>
+                        <p class="tarjetas__texto">nov. 2019 - feb. 2020</p>
+                        <p class="tarjetas__texto">Espinal, Tolima, Colombia</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
+                    </articule>
+                </li>
+                <li class="tarjetas tarjetas--ultra">
+                    <h3 class="tarjetas__titulo">Cajero</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__precio">Pizzería Hoyo 19</p>
+                        <p class="tarjetas__texto">Temporal</p>
+                        <p class="tarjetas__texto">feb. 2019 - ago. 2019</p>
+                        <p class="tarjetas__texto">Girardot, Cundinamarca, Colombia</p>
+                        <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
+                    </articule>
+                </li>
+            </ul>
+        </section>
+        <section class="contacto container">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <p>Entra en contacto conmigo </p>
+            <a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html" class="contacto__boton boton">Entre
+                en contacto</a>
+        </section>
+        <footer class="footer container">
+            <img src="images/imgTrujoTech.png" alt="Logo de TRUJO TECH" class="footer__logo" height="50">
+            <ul class="footer__social">
+                <li><a href="#" class="footer__midia"><img src="images/facebook.png" alt="Ícono de Facebook"></a></li>
+                <li><a href="#" class="footer__midia"><img src="images/instagram.png" alt="Ícono de Instagram"></a></li>
+                <li><a href="#" class="footer__midia"><img src="images/twitter.png" alt="Ícono de Twitter"></a></li>
+            </ul>
+            <nav>
+                <ul class="footer__navegacion">
+                    <li class="footer__enlace"><a href="#titulo">▪ Ir arriba </a></li>
+                    <li class="footer__enlace"><a href="index.html">▪ Inicio</a></li>
+                    <li class="footer__enlace"><a
+                            href="https://juanjosetrujillocardozo.github.io/menu/pruebas-html.html">▪
+                            Pruebas HTML</a></li>
+                    <li class="footer__enlace"><a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">▪
+                            Tienda TRUJO
+                            TECHNOLOGIES </a></li>
+                    <li class="footer__enlace"><a href="https://juanjosetrujillocardozo.github.io/menu/blog.html">▪ Blog
+                        </a></li>
+                    <li class="footer__enlace"><a
+                            href="https://juanjosetrujillocardozo.github.io/menu/portafolio.html">▪
+                            Portafolio</a></li>
+                    <li class="footer__enlace"><a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">▪
+                            Contacto
+                        </a></li>
+                    <li class="footer__enlace"><a href="mailto:juanjosetrujillocardozo@gmail.com">▪ Correo electronico
+                        </a></li>
+                    <li class="footer__enlace"><a href="#">▪ Copyright© 2023 </a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-
-    <h5 class="texto">Hola, Mi nombre es</h5>
-    <h2><span class="color">Juan Jose Trujillo Cardozo</span></h2>
-    <hr>
-    <!-- Hola esto es un comentario y no aparece en el explorador
-    jiji jaja esto es lo mas chevere del mundo xd-->
-    <img src="images/imgPerfilJuanJose.jpg" height="400" />
-    <p class="texto especial">Este es mi:
-        <br>
-        <br class="especial">PORTAFOLIO<br>
-    </p>
-
-    <section class="planes container">
-        <h2 class="planes__titulo">Educación</h2>
-        <ul class="planes__tarjetas">
-            <li class="tarjetas tarjetas--start">
-                <h3 class="tarjetas__titulo">Universidad Piloto de Colombia</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Grado en Ingeniería de Sistemas</p>
-                    <p class="tarjetas__texto">2019 - 2024</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--ultra">
-                <h3 class="tarjetas__titulo">Servicio Nacional de Aprendizaje (SENA)</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Tecnicatura en sistemas</p>
-                    <p class="tarjetas__texto">2016 - 2018</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--mega">
-                <h3 class="tarjetas__titulo">Augusto E. Medina de Comfenalco</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Bachiller Tecnico</p>
-                    <p class="tarjetas__texto">2013 - 2018</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--mega">
-                <h3 class="tarjetas__titulo">Augusto E. Medina de Comfenalco</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Educación Primaria</p>
-                    <p class="tarjetas__texto">2009 - 2012</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--mega">
-                <h3 class="tarjetas__titulo">EduGreen Training</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Curso Certificado en Adobe Prototipos e Interfaces UI/UX con XD</p>
-                    <p class="tarjetas__texto">mar. 2023 - abr. 2023</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--mega boton">Ver más</a>
-                </articule>
-            </li>
-        </ul>
-    </section>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <section class="planes container">
-        <h2 class="planes__titulo">Experiencia</h2>
-        <ul class="planes__tarjetas">
-            <li class="tarjetas tarjetas--start">
-                <h3 class="tarjetas__titulo">Propietario de la empresa</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">TRUJO TECHNOLOGIES</p>
-                    <p class="tarjetas__texto">Autónomo</p>
-                    <p class="tarjetas__texto">mar. 2023 - actualidad</p>
-                    <p class="tarjetas__texto">Girardot, Cundinamarca, Colombia</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--start boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--ultra">
-                <h3 class="tarjetas__titulo">Cajero</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Pizzería Hoyo 19</p>
-                    <p class="tarjetas__texto">Temporal</p>
-                    <p class="tarjetas__texto">nov. 2022 - feb. 2023</p>
-                    <p class="tarjetas__texto">Melgar, Tolima, Colombia</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--ultra">
-                <h3 class="tarjetas__titulo">Cajero</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Ramona Pizza Artesanal</p>
-                    <p class="tarjetas__texto">Jornada completa</p>
-                    <p class="tarjetas__texto">nov. 2019 - feb. 2020</p>
-                    <p class="tarjetas__texto">Espinal, Tolima, Colombia</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
-                </articule>
-            </li>
-            <li class="tarjetas tarjetas--ultra">
-                <h3 class="tarjetas__titulo">Cajero</h3>
-                <articule class="tarjetas__contenido">
-                    <p class="tarjetas__precio"><em>$ 0</em></p>
-                    <p class="tarjetas__texto">Pizzería Hoyo 19</p>
-                    <p class="tarjetas__texto">Temporal</p>
-                    <p class="tarjetas__texto">feb. 2019 - ago. 2019</p>
-                    <p class="tarjetas__texto">Girardot, Cundinamarca, Colombia</p>
-                    <a href="#" class="tarjetas__boton tarjetas__boton--ultra boton">Ver más</a>
-                </articule>
-            </li>
-        </ul>
-    </section>
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-    <footer>
-        <a href="#titulo">▪ Ir arriba </a>
-        <a href="index.html">▪ Inicio</a>
-        <a href="https://juanjosetrujillocardozo.github.io/menu/pruebas-html.html">▪ Pruebas HTML</a>
-        <a href="https://juanjosetrujillocardozo.github.io/menu/tienda.html">▪ Tienda TRUJO TECHNOLOGIES </a>
-        <a href="https://juanjosetrujillocardozo.github.io/menu/blog.html">▪ Blog </a>
-        <a href="https://juanjosetrujillocardozo.github.io/menu/portafolio.html">▪ Portafolio</a>
-        <a href="https://juanjosetrujillocardozo.github.io/menu/contacto.html">▪ Contacto </a>
-        <a href="mailto:juanjosetrujillocardozo@gmail.com">▪ Correo electronico </a>
-        <hr>
-        <p>Copyright© 2023</p>
-    </footer>
-
-
+        </footer>
+    </main>
 </body>
 
 </html>
