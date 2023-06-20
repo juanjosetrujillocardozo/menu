@@ -65,6 +65,7 @@
 .tarjetas__texto {
     color: var(--fuente-ceniza-oscuro);
     line-height: 28px;
+    text-align: center;
 }
 
 .tarjetas__boton {
