@@ -64,7 +64,9 @@ footer a {
 }
 
 footer a:hover {
-    color: cornflowerblue;
+    transition: color 0.5s ease;
+    color: gold;
+    text-decoration: overline;
 }
 
 p.especial {

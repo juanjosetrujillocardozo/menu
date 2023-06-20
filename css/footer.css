@@ -36,6 +36,12 @@
     margin: 0 .5rem .7rem;
 }
 
+.footer__enlace:hover {
+    transition: color 0.5s ease;
+    color: gold;
+    text-decoration: overline;
+}
+
 @media screen and (min-width: 1024px) {
     .footer {
         flex-direction: row;

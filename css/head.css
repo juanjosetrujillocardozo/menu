@@ -29,6 +29,7 @@
 .head__enlace :hover {
     color: gold;
     text-decoration: underline;
+    transition: color 0.5s ease;
 }
 
 .head__enlace {
